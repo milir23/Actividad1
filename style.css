@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #F7E8ED;
+    width: 100%;
+    margin: 45px auto;
+
+
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 10px 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+h1 {
+    margin: 15px 0 35px 0;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 14px;
+}
+
+ol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+    margin: 100px;
+}
+
+ol li {
+    list-style: none;
+}
+
+li button {
+    margin: 5px;
+    background-color: #FFFFFF;
+    color: #747678;
+    border: 1px solid #D1D1D1;
+    height: 45px;
+    width: 355px;
+    font-size: 15px;
+    border-radius: 20px;
+    opacity: 0.9;
+    transition: 0.3s;
+
+    cursor: pointer;
+    
+}
+
+li button:hover {opacity: 1}
+
+a {
+    color: #48353D;
+    text-decoration: none;
+    height: 45px;
+    width: 355px;
+}
+
+div i {
+    font-size: 25px;
+    margin: 40px;
+    cursor: pointer;
+}
+
+.ani:hover {}
